@@ -16,12 +16,12 @@ This C++ program reads the vertex coordinates of a triangular mesh, along with t
 
 ## Data Format
 
-1. Prepare a text file (named 'mesh.dat') containing the triangular mesh data in the following format:
+1. Prepare a text file (named 'mesh.dat') containing the triangular mesh data in the following format:<br>
    &lt;x11&gt; &lt;y11&gt; &lt;z11&gt; &lt;x12&gt; &lt;y12&gt; &lt;z12&gt; &lt;x13&gt; &lt;y13&gt; &lt;z13&gt;,<br>
    ...<br>
    &lt;xN1&gt; &lt;yN1&gt; &lt;zN1&gt; &lt;xN2&gt; &lt;yN2&gt; &lt;zN2&gt; &lt;xN3&gt; &lt;yN3&gt; &lt;zN3&gt;,<br>
    corresponding to N triangles defined.
 2. Prepare a text file (named 'point.dat') containing the number of triangles and the coords of the point:<br>
-   # triangles,<br>
+   number of triangles,<br>
    &lt;px&gt; &lt;py&gt; &lt;pz&gt;
 
