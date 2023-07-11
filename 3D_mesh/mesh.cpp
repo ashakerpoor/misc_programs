@@ -90,7 +90,7 @@ bool is_point_inside(point3d point, vector<triangle>& mesh, int n_triangles) {
         point3d origin;
         int i, count;
 
-        origin.x = point.x + 100.0; // define origin as a point far from the origin.
+        origin.x = point.x + 100.0; // define origin as a point far from the 'Point'.
         origin.x = point.y;
         origin.z = point.z;
 
