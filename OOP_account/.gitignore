@@ -1,0 +1,4 @@
+#ignore compiled binaries
+*.o
+*.out
+*.gch
