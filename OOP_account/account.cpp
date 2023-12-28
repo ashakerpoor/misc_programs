@@ -1,5 +1,5 @@
 /*
-* An object oriented implementation of the hierarchial design
+* An object oriented implementation of the hierarchical design
 * of various bank accounts.
 */
 
